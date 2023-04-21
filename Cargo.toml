@@ -3,7 +3,10 @@ name = "coordtransform-rs"
 version = "0.1.0"
 authors = ["wyxloading"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "a rust library for coordinate transformation"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/wyxloading/coordtransform-rs.git"
+readme = "README.md"
+keywords = ["coordstranform", "gcj02", "wgs84", "bd09"]
 
 [dependencies]
