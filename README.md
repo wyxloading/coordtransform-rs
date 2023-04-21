@@ -13,7 +13,8 @@ coordtransform-rs = "0.1"
 ```
 
 ```rust
-use coordtransform-rs::gcj02_to_wgs84;
+use coordtransform_rs::gcj02_to_wgs84;
 
-println!(gcj02_to_wgs84(113, 25));
+let (lon, lat) = gcj02_to_wgs84(113, 25);
+println!("{}, {}", lon, lat);
 ```
